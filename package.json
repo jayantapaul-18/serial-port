@@ -1,0 +1,28 @@
+{
+  "name": "serial",
+  "version": "1.0.0",
+  "description": "serial port monitoring",
+  "main": "serial.js",
+  "scripts": {
+    "test": "nodemon start serial.js"
+  },
+  "keywords": [
+    "serial"
+  ],
+  "author": "Jayanta Paul",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serialport": "^8.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "docs/*"
+    ],
+    "delay": "2500"
+  }
+}
